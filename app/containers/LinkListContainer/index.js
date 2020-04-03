@@ -12,7 +12,6 @@ import LinkList from '../../components/LinkList';
 
 export class LinkListContainer extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
-    console.log(this.props);
     return (
       <LinkList {...this.props} />
     );
